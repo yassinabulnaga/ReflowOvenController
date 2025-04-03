@@ -36,4 +36,38 @@ The hardware consists of temperature sensing, control, display, and user input s
   <p><em>Figure 3: Circuit diagram of the op-amp circuit.</em></p>
 </div>
 
+## 💾 Software Architecture 
+
+The firmware was written in assembly for the N76E003. A finite state machine (FSM) governs the reflow process stages: Rest, Ramp to Soak, Soak, Ramp to Reflow, Reflow, Cool Down, Done, and Error. Additional logic handles user input, password verification, and LCD updates.
+
+<div align="center">
+  <img width ='600' alt="ELEC 291 Project1 FSM V1" src="https://github.com/user-attachments/assets/15feddde-7cc8-48b1-b33e-bf499a3ad9d0" />
+  <p><em>Figure 4: FSM state diagram for the reflow process.</em></p>
+</div>
+
+## 🔐 Extra Features
+
+
+
+
+
+
+## 🙌 Team Members
+
+This project was developed by **Group A13** as part of the **ELEC291/ELEC292** course at the University of British Columbia. Each member contributed equally to the design, coding, testing, and documentation phases.
+
+| Team Member       |
+|-------------------|
+| Yassin Abulnaga   |
+| Faris Alshouani   |
+| Ali Danesh        |
+| Ronald Feng       |
+| Drédyn Fontana    |
+| Nick Unruh        |
+
+
+
+
+
+
 
