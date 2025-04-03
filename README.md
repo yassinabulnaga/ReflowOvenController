@@ -47,25 +47,65 @@ The firmware was written in assembly for the N76E003. A finite state machine (FS
 
 ## 🔐 Extra Features
 
+To enhance usability and functionality, several additional features were integrated into the reflow oven controller:
+
+- **Passcode Lock:** A 4-character passcode is required at startup to access the system, preventing accidental or unauthorized operation.
+- **Custom LCD Icons:** A flame icon indicates heating, while a snowflake icon appears during cooling phases, improving process clarity.
+- **Audio Feedback:** The system plays the Super Mario theme upon completion of the reflow process using PWM-driven audio output.
+- **Automated Door Mechanism:** A 12V DC motor opens the oven door during cooldown to rapidly reduce internal temperature and improve safety.
+- **Real-Time Display:** The LCD shows current system state, temperature, and time, providing live feedback throughout the reflow cycle.
 
 
+## 🧪 Testing and Validation
 
+To ensure reliability and accuracy, the system’s temperature readings were validated against a calibrated Fluke 45 multimeter across the full operating range. The acceptable tolerance was ±3°C, and repeated testing confirmed compliance within that range.
+
+<div align="center">
+  <img width="600" alt="Temperature Validation Plot" src="https://github.com/user-attachments/assets/422cf2ce-6be6-4980-beab-cd43516ea656" />
+  <p><em>Figure 5: Plot of the difference between the measured multimeter temperature and the calculated microcontroller temperature.</em></p>
+</div>
+
+## 🛠️ Final Build & Demo Results
+
+Below are photos of the working reflow oven controller system:
+
+- On the left: our breadboarded circuit running the FSM, actively displaying temperature and timing information on the LCD.
+- On the right: an EFM8 board successfully soldered using our reflow process, validating the functionality and reliability of the system.
+
+<div align="center">
+  <img width="400" alt="EFM8 board soldered using reflow controller" src="https://github.com/user-attachments/assets/4da63185-be62-4748-bf5e-7425cb74a42d" />
+    <img width="340" alt="FSM running on breadboard circuit" src="https://github.com/user-attachments/assets/497e3043-6556-44a1-a0fb-ef77e2c47c58" />
+  &nbsp;&nbsp;&nbsp;
+</div>
+
+<p align="center"><em>Figure 6: (Left) FSM displaying reflow progress; (Right) SMD board soldered using the controller.</em></p>
 
 
 ## 🙌 Team Members
 
-This project was developed by **Group A13** as part of the **ELEC291/ELEC292** course at the University of British Columbia. Each member contributed equally to the design, coding, testing, and documentation phases.
+<p align="center">
+  This project was developed by <strong>Group A13</strong> as part of the <strong>ELEC291/ELEC292</strong> course at the University of British Columbia. Each member contributed equally to the design, coding, testing, and documentation phases.
+</p>
 
-| Team Member       |
-|-------------------|
-| Yassin Abulnaga   |
-| Faris Alshouani   |
-| Ali Danesh        |
-| Ronald Feng       |
-| Drédyn Fontana    |
-| Nick Unruh        |
+<div align="center">
 
+<table>
+  <thead>
+    <tr>
+      <th>Team Member</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Yassin Abulnaga</td></tr>
+    <tr><td>Faris Alshouani</td></tr>
+    <tr><td>Ali Danesh</td></tr>
+    <tr><td>Ronald Feng</td></tr>
+    <tr><td>Drédyn Fontana</td></tr>
+    <tr><td>Nick Unruh</td></tr>
+  </tbody>
+</table>
 
+</div>
 
 
 
