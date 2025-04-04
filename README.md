@@ -2,7 +2,7 @@
 A precision reflow oven controller designed and implemented for the N76E003 microcontroller, programmed entirely in assembly. This system automates the reflow soldering process using a K-type thermocouple for real-time temperature monitoring, an OP07 op-amp for signal conditioning, and solid-state relay (SSR) control to regulate a standard toaster oven. The system includes a user-friendly LCD interface, password protection, data logging, and a Python-based visualization dashboard.
 
 
-## ✨Features:
+## ✨Features
 - Assembly-only firmware on the N76E003 microcontroller
 - Real-time temperature monitoring with ±3°C accuracy using a calibrated K-type thermocouple
 - Custom reflow profiles configurable via onboard pushbuttons
@@ -14,7 +14,7 @@ A precision reflow oven controller designed and implemented for the N76E003 micr
 - Audio feedback with Super Mario theme music on completion
 - Custom LCD icons (flame & snowflake) to indicate heating/cooling states
 
-## 🧠 System Overview: 
+## 🧠 System Overview
 
 This project is a fully functional reflow oven controller, designed using the N76E003 microcontroller and developed entirely in assembly language. It monitors and regulates oven temperature using a K-type thermocouple and controls a toaster oven through a solid-state relay. The controller features a user-friendly interface with an LCD display, secure passcode access, and live data logging through a Python-based serial interface.
 
