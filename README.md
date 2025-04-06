@@ -2,7 +2,7 @@
 A precision reflow oven controller designed and implemented for the N76E003 microcontroller, programmed entirely in assembly. This system automates the reflow soldering process using a K-type thermocouple for real-time temperature monitoring, an OP07 op-amp for signal conditioning, and solid-state relay (SSR) control to regulate a standard toaster oven. The system includes a user-friendly LCD interface, password protection, data logging, and a Python-based visualization dashboard.
 
 
-## ✨Features
+## Features
 - Assembly-only firmware on the N76E003 microcontroller
 - Real-time temperature monitoring with ±3°C accuracy using a calibrated K-type thermocouple
 - Custom reflow profiles configurable via onboard pushbuttons
@@ -14,7 +14,7 @@ A precision reflow oven controller designed and implemented for the N76E003 micr
 - Audio feedback with Super Mario theme music on completion
 - Custom LCD icons (flame & snowflake) to indicate heating/cooling states
 
-## 🧠 System Overview
+##  System Overview
 
 This project is a fully functional reflow oven controller, designed using the N76E003 microcontroller and developed entirely in assembly language. It monitors and regulates oven temperature using a K-type thermocouple and controls a toaster oven through a solid-state relay. The controller features a user-friendly interface with an LCD display, secure passcode access, and live data logging through a Python-based serial interface.
 
@@ -24,7 +24,7 @@ Figure 1: Block diagram showing the integration between hardware and software co
 
 
 
-## 🔌 Hardware Overview
+##  Hardware Overview
 
 The hardware consists of temperature sensing, control, display, and user input subsystems. A K-type thermocouple is connected through an OP07 op-amp to the N76E003’s ADC input. An LCD and pushbutton interface enable user control, and the SSR regulates power to the oven.
 
@@ -36,7 +36,7 @@ The hardware consists of temperature sensing, control, display, and user input s
   <p><em>Figure 3: Circuit diagram of the op-amp circuit.</em></p>
 </div>
 
-## 💾 Software Architecture 
+##  Software Architecture 
 
 The firmware was written in assembly for the N76E003. A finite state machine (FSM) governs the reflow process stages: Rest, Ramp to Soak, Soak, Ramp to Reflow, Reflow, Cool Down, Done, and Error. Additional logic handles user input, password verification, and LCD updates.
 
@@ -45,7 +45,7 @@ The firmware was written in assembly for the N76E003. A finite state machine (FS
   <p><em>Figure 4: FSM state diagram for the reflow process.</em></p>
 </div>
 
-## 🔐 Extra Features
+##  Extra Features
 
 To enhance usability and functionality, several additional features were integrated into the reflow oven controller:
 
@@ -56,7 +56,7 @@ To enhance usability and functionality, several additional features were integra
 - **Real-Time Display:** The LCD shows current system state, temperature, and time, providing live feedback throughout the reflow cycle.
 
 
-## 🧪 Testing and Validation
+##  Testing and Validation
 
 To ensure reliability and accuracy, the system’s temperature readings were validated against a calibrated Fluke 45 multimeter across the full operating range. The acceptable tolerance was ±3°C, and repeated testing confirmed compliance within that range.
 
@@ -65,7 +65,7 @@ To ensure reliability and accuracy, the system’s temperature readings were val
   <p><em>Figure 5: Plot of the difference between the measured multimeter temperature and the calculated microcontroller temperature.</em></p>
 </div>
 
-## 🛠️ Final Build & Demo Results
+##  Final Build & Demo Results
 
 Below are photos of the working reflow oven controller system:
 
@@ -81,7 +81,7 @@ Below are photos of the working reflow oven controller system:
 <p align="center"><em>Figure 6: (Left) FSM displaying reflow progress; (Right) SMD board soldered using the controller.</em></p>
 
 
-## 🙌 Team Members
+##  Team Members
 
 <p align="center">
   This project was developed by <strong>Group A13</strong> as part of the <strong>ELEC291/ELEC292</strong> course at the University of British Columbia. Each member contributed equally to the design, coding, testing, and documentation phases.
