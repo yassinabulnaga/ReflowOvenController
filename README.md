@@ -81,29 +81,6 @@ Below are photos of the working reflow oven controller system:
 <p align="center"><em>Figure 6: (Left) FSM displaying reflow progress; (Right) SMD board soldered using the controller.</em></p>
 
 
-##  Team Members
-
-<p align="center">
-  This project was developed by <strong>Group A13</strong> as part of the <strong>ELEC291/ELEC292</strong> course at the University of British Columbia. Each member contributed equally to the design, coding, testing, and documentation phases.
-</p>
-
-<div align="center">
-
-<table>
-  <thead>
-    <tr>
-      <th>Team Member</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Yassin Abulnaga</td></tr>
-    <tr><td>Faris Alshouani</td></tr>
-    <tr><td>Ali Danesh</td></tr>
-    <tr><td>Ronald Feng</td></tr>
-    <tr><td>Drédyn Fontana</td></tr>
-    <tr><td>Nick Unruh</td></tr>
-  </tbody>
-</table>
 
 </div>
 
