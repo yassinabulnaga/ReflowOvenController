@@ -1,4 +1,4 @@
-# Reflow Oven Controller — ELEC291/ELEC292 Project
+# Reflow Oven Controller 
 A precision reflow oven controller designed and implemented for the N76E003 microcontroller, programmed entirely in assembly. This system automates the reflow soldering process using a K-type thermocouple for real-time temperature monitoring, an OP07 op-amp for signal conditioning, and solid-state relay (SSR) control to regulate a standard toaster oven. The system includes a user-friendly LCD interface, password protection, data logging, and a Python-based visualization dashboard.
 
 
